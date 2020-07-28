@@ -1,0 +1,178 @@
+2020-07-26 13:35:55 log.py[line:15] INFO write the time and result column
+2020-07-26 13:35:55 log.py[line:15] INFO case [登录] fail
+2020-07-26 13:35:55 log.py[line:15] INFO case_name: 搜索
+2020-07-26 13:35:55 log.py[line:15] INFO clear the time and result column
+2020-07-26 13:35:55 log.py[line:15] INFO total case number: 4, need to execute 2, pass: 1
+2020-07-26 13:35:55 log.py[line:15] INFO case_name: 退出服务
+2020-07-26 13:35:55 log.py[line:15] INFO case_framework: 关键字框架, case_step_sheet_name: 退出
+2020-07-26 13:35:55 log.py[line:15] INFO ****************call keyword****************
+2020-07-26 13:35:55 log.py[line:15] INFO step_description: 关闭APP, step_keyword_function: quit_server, step_locate_type: None, step_locate_exp: None, step_operate_data: None
+2020-07-26 13:35:55 log.py[line:15] INFO quit_server()
+2020-07-26 13:35:57 log.py[line:15] INFO case_name: 进入APP主页
+2020-07-26 13:35:57 log.py[line:15] INFO case_framework: 关键字框架, case_step_sheet_name: 进入主页
+2020-07-26 13:35:57 log.py[line:15] INFO ****************call keyword****************
+2020-07-26 13:35:57 log.py[line:15] INFO step_description: 启动APP, step_keyword_function: open_app, step_locate_type: None, step_locate_exp: None, step_operate_data: None
+2020-07-26 13:35:57 log.py[line:15] INFO open_app()
+2020-07-26 13:35:59 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "5.0.2", "appium:deviceName": "A2JDU16825000046", "appium:appPackage": "com.xsteach.appedu", "appium:appActivity": "com.xsteach.appedu.StartActivity", "appium:unicodeKeyboard": "True", "appium:autoAcceptAlerts": "True", "appium:resetKeyboard": "True", "appium:noReset": "True", "appium:newCommandTimeout": "6000"}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.0.2", "deviceName": "A2JDU16825000046", "appPackage": "com.xsteach.appedu", "appActivity": "com.xsteach.appedu.StartActivity", "unicodeKeyboard": "True", "autoAcceptAlerts": "True", "resetKeyboard": "True", "noReset": "True", "newCommandTimeout": "6000"}}
+2020-07-26 13:35:59 connectionpool.py[line:230] DEBUG Starting new HTTP connection (1): 127.0.0.1:4723
+2020-07-26 13:36:07 connectionpool.py[line:442] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 950
+2020-07-26 13:36:07 remote_connection.py[line:440] DEBUG Finished Request
+2020-07-26 13:36:07 log.py[line:15] INFO write the time and result column
+2020-07-26 13:36:07 log.py[line:15] INFO write cell [2, 6] current time successfully
+2020-07-26 13:36:07 log.py[line:15] INFO write cell [2, 7] successfully
+2020-07-26 13:36:07 log.py[line:15] INFO clear the err_msg and err_pic_path column
+2020-07-26 13:36:07 log.py[line:15] INFO write cell [2, 8] successfully
+2020-07-26 13:36:07 log.py[line:15] INFO write cell [2, 9] successfully
+2020-07-26 13:36:07 log.py[line:15] INFO step [启动APP] pass
+2020-07-26 13:36:07 log.py[line:15] INFO write the time and result column
+2020-07-26 13:36:07 log.py[line:15] INFO write cell [2, 7] current time successfully
+2020-07-26 13:36:07 log.py[line:15] INFO write cell [2, 8] successfully
+2020-07-26 13:36:07 log.py[line:15] INFO case [进入APP主页] pass
+2020-07-26 13:36:07 log.py[line:15] INFO case_name: 登录
+2020-07-26 13:36:07 log.py[line:15] INFO case_framework: 关键字框架, case_step_sheet_name: 登录
+2020-07-26 13:36:07 log.py[line:15] INFO ****************call keyword****************
+2020-07-26 13:36:07 log.py[line:15] INFO step_description: 点击个人中心, step_keyword_function: click, step_locate_type: id, step_locate_exp: content_rb_mine, step_operate_data: None
+2020-07-26 13:36:07 log.py[line:15] INFO click('id', 'content_rb_mine')
+2020-07-26 13:36:07 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element {"using": "id", "value": "content_rb_mine", "sessionId": "0db4296d-b6f9-466c-b463-0d7103dcf541"}
+2020-07-26 13:36:07 connectionpool.py[line:442] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element HTTP/1.1" 500 164
+2020-07-26 13:36:07 remote_connection.py[line:440] DEBUG Finished Request
+2020-07-26 13:36:07 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element {"using": "id", "value": "content_rb_mine", "sessionId": "0db4296d-b6f9-466c-b463-0d7103dcf541"}
+2020-07-26 13:36:09 connectionpool.py[line:442] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element HTTP/1.1" 500 164
+2020-07-26 13:36:09 remote_connection.py[line:440] DEBUG Finished Request
+2020-07-26 13:36:09 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element {"using": "id", "value": "content_rb_mine", "sessionId": "0db4296d-b6f9-466c-b463-0d7103dcf541"}
+2020-07-26 13:36:10 connectionpool.py[line:442] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element HTTP/1.1" 500 164
+2020-07-26 13:36:10 remote_connection.py[line:440] DEBUG Finished Request
+2020-07-26 13:36:10 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element {"using": "id", "value": "content_rb_mine", "sessionId": "0db4296d-b6f9-466c-b463-0d7103dcf541"}
+2020-07-26 13:36:12 connectionpool.py[line:442] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element HTTP/1.1" 500 164
+2020-07-26 13:36:12 remote_connection.py[line:440] DEBUG Finished Request
+2020-07-26 13:36:12 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element {"using": "id", "value": "content_rb_mine", "sessionId": "0db4296d-b6f9-466c-b463-0d7103dcf541"}
+2020-07-26 13:36:14 connectionpool.py[line:442] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element HTTP/1.1" 200 129
+2020-07-26 13:36:14 remote_connection.py[line:440] DEBUG Finished Request
+2020-07-26 13:36:14 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element/1/click {"id": "1", "sessionId": "0db4296d-b6f9-466c-b463-0d7103dcf541"}
+2020-07-26 13:36:14 connectionpool.py[line:442] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element/1/click HTTP/1.1" 200 76
+2020-07-26 13:36:14 remote_connection.py[line:440] DEBUG Finished Request
+2020-07-26 13:36:14 log.py[line:15] INFO write the time and result column
+2020-07-26 13:36:14 log.py[line:15] INFO write cell [2, 6] current time successfully
+2020-07-26 13:36:14 log.py[line:15] INFO write cell [2, 7] successfully
+2020-07-26 13:36:14 log.py[line:15] INFO clear the err_msg and err_pic_path column
+2020-07-26 13:36:14 log.py[line:15] INFO write cell [2, 8] successfully
+2020-07-26 13:36:14 log.py[line:15] INFO write cell [2, 9] successfully
+2020-07-26 13:36:14 log.py[line:15] INFO step [点击个人中心] pass
+2020-07-26 13:36:14 log.py[line:15] INFO step_description: 点击点击登录按钮, step_keyword_function: click, step_locate_type: id, step_locate_exp: tvLogin, step_operate_data: None
+2020-07-26 13:36:14 log.py[line:15] INFO click('id', 'tvLogin')
+2020-07-26 13:36:14 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element {"using": "id", "value": "tvLogin", "sessionId": "0db4296d-b6f9-466c-b463-0d7103dcf541"}
+2020-07-26 13:36:15 connectionpool.py[line:442] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element HTTP/1.1" 200 129
+2020-07-26 13:36:15 remote_connection.py[line:440] DEBUG Finished Request
+2020-07-26 13:36:15 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element/2/click {"id": "2", "sessionId": "0db4296d-b6f9-466c-b463-0d7103dcf541"}
+2020-07-26 13:36:16 connectionpool.py[line:442] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element/2/click HTTP/1.1" 200 76
+2020-07-26 13:36:16 remote_connection.py[line:440] DEBUG Finished Request
+2020-07-26 13:36:16 log.py[line:15] INFO write the time and result column
+2020-07-26 13:36:16 log.py[line:15] INFO write cell [3, 6] current time successfully
+2020-07-26 13:36:16 log.py[line:15] INFO write cell [3, 7] successfully
+2020-07-26 13:36:16 log.py[line:15] INFO clear the err_msg and err_pic_path column
+2020-07-26 13:36:16 log.py[line:15] INFO write cell [3, 8] successfully
+2020-07-26 13:36:16 log.py[line:15] INFO write cell [3, 9] successfully
+2020-07-26 13:36:16 log.py[line:15] INFO step [点击点击登录按钮] pass
+2020-07-26 13:36:16 log.py[line:15] INFO step_description: 输入用户名, step_keyword_function: input_string, step_locate_type: id, step_locate_exp: etUser, step_operate_data: fosterwu
+2020-07-26 13:36:16 log.py[line:15] INFO input_string('id', 'etUser', 'fosterwu')
+2020-07-26 13:36:16 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element {"using": "id", "value": "etUser", "sessionId": "0db4296d-b6f9-466c-b463-0d7103dcf541"}
+2020-07-26 13:36:16 connectionpool.py[line:442] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element HTTP/1.1" 200 129
+2020-07-26 13:36:16 remote_connection.py[line:440] DEBUG Finished Request
+2020-07-26 13:36:16 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element/3/value {"text": "fosterwu", "value": ["f", "o", "s", "t", "e", "r", "w", "u"], "id": "3", "sessionId": "0db4296d-b6f9-466c-b463-0d7103dcf541"}
+2020-07-26 13:36:22 connectionpool.py[line:442] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element/3/value HTTP/1.1" 200 76
+2020-07-26 13:36:22 remote_connection.py[line:440] DEBUG Finished Request
+2020-07-26 13:36:22 log.py[line:15] INFO write the time and result column
+2020-07-26 13:36:22 log.py[line:15] INFO write cell [4, 6] current time successfully
+2020-07-26 13:36:22 log.py[line:15] INFO write cell [4, 7] successfully
+2020-07-26 13:36:22 log.py[line:15] INFO clear the err_msg and err_pic_path column
+2020-07-26 13:36:22 log.py[line:15] INFO write cell [4, 8] successfully
+2020-07-26 13:36:22 log.py[line:15] INFO write cell [4, 9] successfully
+2020-07-26 13:36:22 log.py[line:15] INFO step [输入用户名] pass
+2020-07-26 13:36:22 log.py[line:15] INFO step_description: 等待, step_keyword_function: sleep, step_locate_type: None, step_locate_exp: None, step_operate_data: 2
+2020-07-26 13:36:22 log.py[line:15] INFO sleep('2')
+2020-07-26 13:36:24 log.py[line:15] INFO write the time and result column
+2020-07-26 13:36:24 log.py[line:15] INFO write cell [5, 6] current time successfully
+2020-07-26 13:36:24 log.py[line:15] INFO write cell [5, 7] successfully
+2020-07-26 13:36:24 log.py[line:15] INFO clear the err_msg and err_pic_path column
+2020-07-26 13:36:24 log.py[line:15] INFO write cell [5, 8] successfully
+2020-07-26 13:36:24 log.py[line:15] INFO write cell [5, 9] successfully
+2020-07-26 13:36:24 log.py[line:15] INFO step [等待] pass
+2020-07-26 13:36:24 log.py[line:15] INFO step_description: 输入密码, step_keyword_function: input_string, step_locate_type: id, step_locate_exp: etPwd, step_operate_data: gloryroad123
+2020-07-26 13:36:24 log.py[line:15] INFO input_string('id', 'etPwd', 'gloryroad123')
+2020-07-26 13:36:24 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element {"using": "id", "value": "etPwd", "sessionId": "0db4296d-b6f9-466c-b463-0d7103dcf541"}
+2020-07-26 13:36:24 connectionpool.py[line:442] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element HTTP/1.1" 200 129
+2020-07-26 13:36:24 remote_connection.py[line:440] DEBUG Finished Request
+2020-07-26 13:36:24 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element/4/value {"text": "gloryroad123", "value": ["g", "l", "o", "r", "y", "r", "o", "a", "d", "1", "2", "3"], "id": "4", "sessionId": "0db4296d-b6f9-466c-b463-0d7103dcf541"}
+2020-07-26 13:36:30 connectionpool.py[line:442] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element/4/value HTTP/1.1" 200 76
+2020-07-26 13:36:30 remote_connection.py[line:440] DEBUG Finished Request
+2020-07-26 13:36:30 log.py[line:15] INFO write the time and result column
+2020-07-26 13:36:30 log.py[line:15] INFO write cell [6, 6] current time successfully
+2020-07-26 13:36:30 log.py[line:15] INFO write cell [6, 7] successfully
+2020-07-26 13:36:30 log.py[line:15] INFO clear the err_msg and err_pic_path column
+2020-07-26 13:36:30 log.py[line:15] INFO write cell [6, 8] successfully
+2020-07-26 13:36:30 log.py[line:15] INFO write cell [6, 9] successfully
+2020-07-26 13:36:30 log.py[line:15] INFO step [输入密码] pass
+2020-07-26 13:36:30 log.py[line:15] INFO step_description: 点击登录, step_keyword_function: click, step_locate_type: id, step_locate_exp: btnLogin, step_operate_data: None
+2020-07-26 13:36:30 log.py[line:15] INFO click('id', 'btnLogin')
+2020-07-26 13:36:30 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element {"using": "id", "value": "btnLogin", "sessionId": "0db4296d-b6f9-466c-b463-0d7103dcf541"}
+2020-07-26 13:36:30 connectionpool.py[line:442] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element HTTP/1.1" 200 129
+2020-07-26 13:36:30 remote_connection.py[line:440] DEBUG Finished Request
+2020-07-26 13:36:30 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element/5/click {"id": "5", "sessionId": "0db4296d-b6f9-466c-b463-0d7103dcf541"}
+2020-07-26 13:36:30 connectionpool.py[line:442] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/element/5/click HTTP/1.1" 200 76
+2020-07-26 13:36:30 remote_connection.py[line:440] DEBUG Finished Request
+2020-07-26 13:36:30 log.py[line:15] INFO write the time and result column
+2020-07-26 13:36:30 log.py[line:15] INFO write cell [7, 6] current time successfully
+2020-07-26 13:36:31 log.py[line:15] INFO write cell [7, 7] successfully
+2020-07-26 13:36:31 log.py[line:15] INFO clear the err_msg and err_pic_path column
+2020-07-26 13:36:31 log.py[line:15] INFO write cell [7, 8] successfully
+2020-07-26 13:36:31 log.py[line:15] INFO write cell [7, 9] successfully
+2020-07-26 13:36:31 log.py[line:15] INFO step [点击登录] pass
+2020-07-26 13:36:31 log.py[line:15] INFO step_description: 等待, step_keyword_function: sleep, step_locate_type: None, step_locate_exp: None, step_operate_data: 3
+2020-07-26 13:36:31 log.py[line:15] INFO sleep('3')
+2020-07-26 13:36:34 log.py[line:15] INFO write the time and result column
+2020-07-26 13:36:34 log.py[line:15] INFO write cell [8, 6] current time successfully
+2020-07-26 13:36:34 log.py[line:15] INFO write cell [8, 7] successfully
+2020-07-26 13:36:34 log.py[line:15] INFO clear the err_msg and err_pic_path column
+2020-07-26 13:36:34 log.py[line:15] INFO write cell [8, 8] successfully
+2020-07-26 13:36:34 log.py[line:15] INFO write cell [8, 9] successfully
+2020-07-26 13:36:34 log.py[line:15] INFO step [等待] pass
+2020-07-26 13:36:34 log.py[line:15] INFO step_description: 断言是否登录成功, step_keyword_function: assert_in_pagesource, step_locate_type: None, step_locate_exp: None, step_operate_data: 我的积分
+2020-07-26 13:36:34 log.py[line:15] INFO assert_in_pagesource('我的积分')
+2020-07-26 13:36:34 remote_connection.py[line:388] DEBUG GET http://127.0.0.1:4723/wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/source {"sessionId": "0db4296d-b6f9-466c-b463-0d7103dcf541"}
+2020-07-26 13:36:34 connectionpool.py[line:442] DEBUG http://127.0.0.1:4723 "GET /wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541/source HTTP/1.1" 200 31032
+2020-07-26 13:36:34 remote_connection.py[line:440] DEBUG Finished Request
+2020-07-26 13:36:34 log.py[line:15] INFO write the time and result column
+2020-07-26 13:36:34 log.py[line:15] INFO write cell [9, 6] current time successfully
+2020-07-26 13:36:34 log.py[line:15] INFO write cell [9, 7] successfully
+2020-07-26 13:36:34 log.py[line:15] INFO clear the err_msg and err_pic_path column
+2020-07-26 13:36:34 log.py[line:15] INFO write cell [9, 8] successfully
+2020-07-26 13:36:34 log.py[line:15] INFO write cell [9, 9] successfully
+2020-07-26 13:36:34 log.py[line:15] INFO step [断言是否登录成功] pass
+2020-07-26 13:36:34 log.py[line:15] INFO write the time and result column
+2020-07-26 13:36:34 log.py[line:15] INFO write cell [3, 7] current time successfully
+2020-07-26 13:36:34 log.py[line:15] INFO write cell [3, 8] successfully
+2020-07-26 13:36:34 log.py[line:15] INFO case [登录] pass
+2020-07-26 13:36:34 log.py[line:15] INFO case_name: 搜索
+2020-07-26 13:36:34 log.py[line:15] INFO clear the time and result column
+2020-07-26 13:36:34 log.py[line:15] INFO write cell [4, 7] successfully
+2020-07-26 13:36:34 log.py[line:15] INFO write cell [4, 8] successfully
+2020-07-26 13:36:34 log.py[line:15] INFO total case number: 4, need to execute 2, pass: 2
+2020-07-26 13:36:34 log.py[line:15] INFO case_name: 退出服务
+2020-07-26 13:36:34 log.py[line:15] INFO case_framework: 关键字框架, case_step_sheet_name: 退出
+2020-07-26 13:36:34 log.py[line:15] INFO ****************call keyword****************
+2020-07-26 13:36:34 log.py[line:15] INFO step_description: 关闭APP, step_keyword_function: quit_server, step_locate_type: None, step_locate_exp: None, step_operate_data: None
+2020-07-26 13:36:34 log.py[line:15] INFO quit_server()
+2020-07-26 13:36:34 remote_connection.py[line:388] DEBUG DELETE http://127.0.0.1:4723/wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541 {"sessionId": "0db4296d-b6f9-466c-b463-0d7103dcf541"}
+2020-07-26 13:36:37 connectionpool.py[line:442] DEBUG http://127.0.0.1:4723 "DELETE /wd/hub/session/0db4296d-b6f9-466c-b463-0d7103dcf541 HTTP/1.1" 200 76
+2020-07-26 13:36:37 remote_connection.py[line:440] DEBUG Finished Request
+2020-07-26 13:36:37 log.py[line:15] INFO write the time and result column
+2020-07-26 13:36:37 log.py[line:15] INFO write cell [2, 6] current time successfully
+2020-07-26 13:36:37 log.py[line:15] INFO write cell [2, 7] successfully
+2020-07-26 13:36:38 log.py[line:15] INFO clear the err_msg and err_pic_path column
+2020-07-26 13:36:38 log.py[line:15] INFO write cell [2, 8] successfully
+2020-07-26 13:36:38 log.py[line:15] INFO write cell [2, 9] successfully
+2020-07-26 13:36:38 log.py[line:15] INFO step [关闭APP] pass
+2020-07-26 13:36:38 log.py[line:15] INFO write the time and result column
+2020-07-26 13:36:38 log.py[line:15] INFO write cell [5, 7] current time successfully
+2020-07-26 13:36:38 log.py[line:15] INFO write cell [5, 8] successfully
+2020-07-26 13:36:38 log.py[line:15] INFO case [退出服务] pass
